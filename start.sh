@@ -11,5 +11,5 @@ then
     sleep 60
     TERM=xterm
 
-    /usr/bin/vh_daemon /usr/bin/verlihub
+    /usr/local/bin/vh_daemon /usr/local/bin/verlihub
 fi
