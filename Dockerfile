@@ -21,7 +21,7 @@ RUN apt update && \
 
 ADD start.sh /usr/local/bin/start.sh
 
-RUN chmod +x /usr/local/bin/start.sh
+RUN ldconfig && chmod +x /usr/local/bin/start.sh
 
 EXPOSE 4111
 
